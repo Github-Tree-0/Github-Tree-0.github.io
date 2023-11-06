@@ -1,84 +1,28 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{chen2023neuraleditor,
+  title = {NeuralEditor: Editing Neural Radiance Fields via Manipulating Point Clouds},
+  author = {Jun-Kun Chen* and Jipeng Lyu* and Yu-Xiong Wang},
+  booktitle = {CVPR},
+  year = {2023},
+  selected = {true},
+  bibtex_show = {true},
+  abstract = {This paper proposes NeuralEditor that enables neural radiance fields (NeRFs) natively editable for general shape editing tasks. Despite their impressive results on novel-view synthesis, it remains a fundamental challenge for NeRFs to edit the shape of the scene. Our key insight is to exploit the explicit point cloud representation as the underlying structure to construct NeRFs, inspired by the intuitive interpretation of NeRF rendering as a process that projects or "plots" the associated 3D point cloud to a 2D image plane. To this end, NeuralEditor introduces a novel rendering scheme based on deterministic integration within K-D tree-guided density-adaptive voxels, which produces both high-quality rendering results and precise point clouds through optimization. NeuralEditor then performs shape editing via mapping associated points between point clouds. Extensive evaluation shows that NeuralEditor achieves state-of-the-art performance in both shape deformation and scene morphing tasks. Notably, NeuralEditor supports both zero-shot inference and further fine-tuning over the edited scene. Our code, benchmark, and demo video are available at this https URL.},
+  arxiv = {2305.03049},
+  website = {https://immortalco.github.io/NeuralEditor/},
+  preview={NeuralEditor.gif}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{lv2022neuralmps,
+  title = {NeuralMPS: Non-Lambertian Multispectral Photometric Stereo via Spectral Reflectance Decomposition},
+  author = {Jipeng Lv* and Heng Guo* and Guanying Chen and Jinxiu Liang and Boxin Shi},
+  booktitle = {IJCAI},
+  year = {2023},
+  selected = {true},
+  bibtex_show = {true},
+  abstract = {Multispectral photometric stereo(MPS) aims at recovering the surface normal of a scene from a single-shot multispectral image captured under multispectral illuminations. Existing MPS methods adopt the Lambertian reflectance model to make the problem tractable, but it greatly limits their application to real-world surfaces. In this paper, we propose a deep neural network named NeuralMPS to solve the MPS problem under general non-Lambertian spectral reflectances. Specifically, we present a spectral reflectance decomposition(SRD) model to disentangle the spectral reflectance into geometric components and spectral components. With this decomposition, we show that the MPS problem for surfaces with a uniform material is equivalent to the conventional photometric stereo(CPS) with unknown light intensities. In this way, NeuralMPS reduces the difficulty of the non-Lambertian MPS problem by leveraging the well-studied non-Lambertian CPS methods. Experiments on both synthetic and real-world scenes demonstrate the effectiveness of our method.},
+  arxiv = {2211.15311},
+  website = {https://arxiv.org/abs/2211.15311},
+  preview={NeuralMPS.png}
 }
